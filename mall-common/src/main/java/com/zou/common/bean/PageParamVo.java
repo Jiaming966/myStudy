@@ -29,6 +29,6 @@ public class PageParamVo {
 
     public <T> IPage<T> getPage(){
 
-        return new Page<>(pageNum, pageSize);
+        return new Page<T>(pageNum, pageSize);
     }
 }
