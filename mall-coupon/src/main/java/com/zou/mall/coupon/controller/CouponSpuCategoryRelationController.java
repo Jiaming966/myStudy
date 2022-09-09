@@ -25,7 +25,7 @@ import com.zou.common.utils.R;
  * @date 2022-09-08 17:33:30
  */
 @RestController
-@RequestMapping("product/couponspucategoryrelation")
+@RequestMapping("coupon/couponspucategoryrelation")
 public class CouponSpuCategoryRelationController {
     @Autowired
     private CouponSpuCategoryRelationService couponSpuCategoryRelationService;

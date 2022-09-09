@@ -25,7 +25,7 @@ import com.zou.common.utils.R;
  * @date 2022-09-08 17:35:07
  */
 @RestController
-@RequestMapping("product/growthchangehistory")
+@RequestMapping("member/growthchangehistory")
 public class GrowthChangeHistoryController {
     @Autowired
     private GrowthChangeHistoryService growthChangeHistoryService;

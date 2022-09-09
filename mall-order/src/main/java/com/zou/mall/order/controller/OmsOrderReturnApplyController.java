@@ -25,7 +25,7 @@ import com.zou.common.utils.R;
  * @date 2022-09-08 17:17:42
  */
 @RestController
-@RequestMapping("product/omsorderreturnapply")
+@RequestMapping("order/omsorderreturnapply")
 public class OmsOrderReturnApplyController {
     @Autowired
     private OmsOrderReturnApplyService omsOrderReturnApplyService;

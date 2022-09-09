@@ -25,7 +25,7 @@ import com.zou.common.utils.R;
  * @date 2022-09-08 17:35:07
  */
 @RestController
-@RequestMapping("product/membercollectspu")
+@RequestMapping("member/membercollectspu")
 public class MemberCollectSpuController {
     @Autowired
     private MemberCollectSpuService memberCollectSpuService;

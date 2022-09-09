@@ -25,7 +25,7 @@ import com.zou.common.utils.R;
  * @date 2022-09-08 17:17:42
  */
 @RestController
-@RequestMapping("product/omsorderitem")
+@RequestMapping("order/omsorderitem")
 public class OmsOrderItemController {
     @Autowired
     private OmsOrderItemService omsOrderItemService;

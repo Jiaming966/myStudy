@@ -25,7 +25,7 @@ import com.zou.common.utils.R;
  * @date 2022-09-08 17:35:08
  */
 @RestController
-@RequestMapping("product/memberstatisticsinfo")
+@RequestMapping("member/memberstatisticsinfo")
 public class MemberStatisticsInfoController {
     @Autowired
     private MemberStatisticsInfoService memberStatisticsInfoService;

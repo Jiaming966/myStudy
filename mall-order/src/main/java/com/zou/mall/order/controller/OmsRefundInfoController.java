@@ -25,7 +25,7 @@ import com.zou.common.utils.R;
  * @date 2022-09-08 17:17:43
  */
 @RestController
-@RequestMapping("product/omsrefundinfo")
+@RequestMapping("order/omsrefundinfo")
 public class OmsRefundInfoController {
     @Autowired
     private OmsRefundInfoService omsRefundInfoService;

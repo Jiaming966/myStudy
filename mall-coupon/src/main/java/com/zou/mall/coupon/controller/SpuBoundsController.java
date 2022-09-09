@@ -25,7 +25,7 @@ import com.zou.common.utils.R;
  * @date 2022-09-08 17:33:31
  */
 @RestController
-@RequestMapping("product/spubounds")
+@RequestMapping("coupon/spubounds")
 public class SpuBoundsController {
     @Autowired
     private SpuBoundsService spuBoundsService;

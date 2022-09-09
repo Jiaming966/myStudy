@@ -25,7 +25,7 @@ import com.zou.common.utils.R;
  * @date 2022-09-08 17:35:07
  */
 @RestController
-@RequestMapping("product/memberloginlog")
+@RequestMapping("member/memberloginlog")
 public class MemberLoginLogController {
     @Autowired
     private MemberLoginLogService memberLoginLogService;

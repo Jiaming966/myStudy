@@ -25,7 +25,7 @@ import com.zou.common.utils.R;
  * @date 2022-09-08 17:35:52
  */
 @RestController
-@RequestMapping("product/waresku")
+@RequestMapping("ware/waresku")
 public class WareSkuController {
     @Autowired
     private WareSkuService wareSkuService;
