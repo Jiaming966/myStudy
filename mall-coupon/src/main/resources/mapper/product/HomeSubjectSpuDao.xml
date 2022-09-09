@@ -4,7 +4,7 @@
 <mapper namespace="com.zou.mall.product.dao.HomeSubjectSpuDao">
 
 	<!-- 可根据自己的需求，是否要使用 -->
-    <resultMap type="com.zou.mall.product.entity.HomeSubjectSpuEntity" id="homeSubjectSpuMap">
+    <resultMap type="com.zou.mall.coupon.entity.HomeSubjectSpuEntity" id="homeSubjectSpuMap">
         <result property="id" column="id"/>
         <result property="name" column="name"/>
         <result property="subjectId" column="subject_id"/>

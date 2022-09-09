@@ -4,7 +4,7 @@
 <mapper namespace="com.zou.mall.product.dao.OmsOrderSettingDao">
 
 	<!-- 可根据自己的需求，是否要使用 -->
-    <resultMap type="com.zou.mall.product.entity.OmsOrderSettingEntity" id="omsOrderSettingMap">
+    <resultMap type="com.zou.mall.order.entity.OmsOrderSettingEntity" id="omsOrderSettingMap">
         <result property="id" column="id"/>
         <result property="flashOrderOvertime" column="flash_order_overtime"/>
         <result property="normalOrderOvertime" column="normal_order_overtime"/>

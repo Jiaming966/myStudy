@@ -4,7 +4,7 @@
 <mapper namespace="com.zou.mall.product.dao.OmsPaymentInfoDao">
 
 	<!-- 可根据自己的需求，是否要使用 -->
-    <resultMap type="com.zou.mall.product.entity.OmsPaymentInfoEntity" id="omsPaymentInfoMap">
+    <resultMap type="com.zou.mall.order.entity.OmsPaymentInfoEntity" id="omsPaymentInfoMap">
         <result property="id" column="id"/>
         <result property="orderSn" column="order_sn"/>
         <result property="orderId" column="order_id"/>

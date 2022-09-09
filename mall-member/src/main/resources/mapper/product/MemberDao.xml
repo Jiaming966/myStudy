@@ -4,7 +4,7 @@
 <mapper namespace="com.zou.mall.product.dao.MemberDao">
 
 	<!-- 可根据自己的需求，是否要使用 -->
-    <resultMap type="com.zou.mall.product.entity.MemberEntity" id="memberMap">
+    <resultMap type="com.zou.mall.member.entity.MemberEntity" id="memberMap">
         <result property="id" column="id"/>
         <result property="levelId" column="level_id"/>
         <result property="username" column="username"/>

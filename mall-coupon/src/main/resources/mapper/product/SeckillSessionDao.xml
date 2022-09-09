@@ -4,7 +4,7 @@
 <mapper namespace="com.zou.mall.product.dao.SeckillSessionDao">
 
 	<!-- 可根据自己的需求，是否要使用 -->
-    <resultMap type="com.zou.mall.product.entity.SeckillSessionEntity" id="seckillSessionMap">
+    <resultMap type="com.zou.mall.coupon.entity.SeckillSessionEntity" id="seckillSessionMap">
         <result property="id" column="id"/>
         <result property="name" column="name"/>
         <result property="startTime" column="start_time"/>

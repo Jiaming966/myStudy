@@ -4,7 +4,7 @@
 <mapper namespace="com.zou.mall.product.dao.SeckillPromotionDao">
 
 	<!-- 可根据自己的需求，是否要使用 -->
-    <resultMap type="com.zou.mall.product.entity.SeckillPromotionEntity" id="seckillPromotionMap">
+    <resultMap type="com.zou.mall.coupon.entity.SeckillPromotionEntity" id="seckillPromotionMap">
         <result property="id" column="id"/>
         <result property="title" column="title"/>
         <result property="startTime" column="start_time"/>

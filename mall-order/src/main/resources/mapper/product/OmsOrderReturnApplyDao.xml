@@ -4,7 +4,7 @@
 <mapper namespace="com.zou.mall.product.dao.OmsOrderReturnApplyDao">
 
 	<!-- 可根据自己的需求，是否要使用 -->
-    <resultMap type="com.zou.mall.product.entity.OmsOrderReturnApplyEntity" id="omsOrderReturnApplyMap">
+    <resultMap type="com.zou.mall.order.entity.OmsOrderReturnApplyEntity" id="omsOrderReturnApplyMap">
         <result property="id" column="id"/>
         <result property="orderId" column="order_id"/>
         <result property="skuId" column="sku_id"/>

@@ -3,6 +3,7 @@ package com.zou.mall.product.controller;
 import java.util.Arrays;
 import java.util.Map;
 
+import com.zou.mall.product.entity.AttrEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -10,7 +11,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.zou.mall.product.entity.AttrEntity;
 import com.zou.mall.product.service.AttrService;
 import com.zou.common.utils.PageUtils;
 import com.zou.common.utils.R;

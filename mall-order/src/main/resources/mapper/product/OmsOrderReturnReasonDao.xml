@@ -4,7 +4,7 @@
 <mapper namespace="com.zou.mall.product.dao.OmsOrderReturnReasonDao">
 
 	<!-- 可根据自己的需求，是否要使用 -->
-    <resultMap type="com.zou.mall.product.entity.OmsOrderReturnReasonEntity" id="omsOrderReturnReasonMap">
+    <resultMap type="com.zou.mall.order.entity.OmsOrderReturnReasonEntity" id="omsOrderReturnReasonMap">
         <result property="id" column="id"/>
         <result property="name" column="name"/>
         <result property="sort" column="sort"/>

@@ -4,7 +4,7 @@
 <mapper namespace="com.zou.mall.product.dao.OmsRefundInfoDao">
 
 	<!-- 可根据自己的需求，是否要使用 -->
-    <resultMap type="com.zou.mall.product.entity.OmsRefundInfoEntity" id="omsRefundInfoMap">
+    <resultMap type="com.zou.mall.order.entity.OmsRefundInfoEntity" id="omsRefundInfoMap">
         <result property="id" column="id"/>
         <result property="orderReturnId" column="order_return_id"/>
         <result property="refund" column="refund"/>
